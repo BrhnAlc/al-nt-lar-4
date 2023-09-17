@@ -20,8 +20,8 @@ const App = () => {
   return (
     <div className="App">
       <div className="quotes">
-        <p>{quotes.text}</p> {/* Yalnızca quotes metnini gösteriyoruz. */}
-        <p>{quotes.author}</p>
+        <p>{quotes}</p> {/* Yalnızca quotes metnini gösteriyoruz. */}
+        
         <div className="btnContainer">
         <button onClick={handleClick}>Quotes</button>
         </div>
